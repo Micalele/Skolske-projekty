@@ -1,0 +1,57 @@
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin: 0;
+}
+
+#form{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 25px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+h1{
+    text-align: center;
+}
+
+#personalInformation{
+    border-style: solid;
+    border-color: white;
+    padding: 0px 20px 10px 20px;
+}
+
+#charDefinition{
+    border-style: solid;
+    border-color: white;
+    padding: 0px 20px 10px 20px;
+}
+
+#newsRadios{
+    margin-left: 20px;
+    display: none;
+}
+
+#else{
+    display: none;
+}
+
+#weapons{
+    padding-left: 20px;
+}
+
+.formError{
+    display: none;
+    color: red;
+}
+
+#meno{
+    display: none;
+}

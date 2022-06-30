@@ -1,0 +1,15 @@
+html{
+    background-color: #aaaaaa;
+}
+
+#menu{
+    background-color: #7e7e7e;
+    padding: 20px;
+    text-align: center;
+    border-top-style: solid;
+}
+
+body{
+    border-style: solid;
+    margin: 100px;
+}

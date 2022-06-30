@@ -1,0 +1,49 @@
+body {
+    background: url("background.png");
+    background-size: cover;
+}
+
+#myProgress {
+    background-color: rgba(0,0,0,0.5);
+    border-style: solid;
+    border-color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+}
+
+#myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+#output {
+    top: 20%;
+    position: fixed;
+    width: 60%;
+    height: 70%;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#menu{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.input{
+    font-size: xx-large;
+    height: 50px;
+    width: 48%;
+}
+
+#button{
+    width: 100%;
+}

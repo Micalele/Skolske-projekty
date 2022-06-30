@@ -1,0 +1,138 @@
+body{
+    background: dimgray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    color: darkgoldenrod;
+    background-color: #363636;
+    border-bottom: darkgoldenrod;
+    border-bottom-style: solid;
+}
+
+header div{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+footer{
+    color: darkgoldenrod;
+    background-color: #363636;
+    text-align: center;
+    margin-bottom: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image{
+    float: left;
+    background-image: url("images/azerothMap.jpg");
+    background-size: cover;
+    display: block;
+    width: 1153px;
+    height: 769px;
+    margin: 20px;
+}
+
+.marker{
+    background-size: cover;
+    position: absolute;
+    margin: auto;
+}
+
+.tooltipImage{
+    float: right;
+    padding: 5px;
+}
+
+#kalimdor{
+    height: 350px;
+    width: 180px;;
+    left: 150px;
+    top: 350px;
+}
+#kalimdor .tooltip{
+    height: 350px;
+    width: 230px;
+}
+
+#brokenIsles{
+    height: 150px;
+    width: 135px;;
+    left: 630px;
+    top: 340px;
+}
+#brokenIsles .tooltip{
+    height: 400px;
+}
+
+#easternKingdoms{
+    height: 370px;
+    width: 180px;
+    left: 930px;
+    top: 300px;
+}
+#easternKingdoms .tooltip{
+    height: 300px;
+}
+
+#kulTiras{
+    height: 130px;
+    width: 120px;
+    left: 780px;
+    top: 400px;
+}
+#kulTiras .tooltip{
+    height: 230px;
+}
+
+#northrend{
+    height: 180px;
+    width: 250px;
+    left: 470px;
+    top: 110px;
+}
+#northrend .tooltip{
+    width: 250px;
+    height: 300px;
+}
+
+#pandaria{
+    height: 150px;
+    width: 250px;
+    left: 450px;
+    top: 650px;
+}
+#pandaria .tooltip{
+    height: 240px;
+}
+
+#zandalar{
+    height: 130px;
+    width: 125px;
+    left: 590px;
+    top: 510px;
+}
+
+.tooltip{
+    visibility: hidden;
+    background: rgba(0,0,0,0.5);
+    height: 350px;
+    width: 230px;
+    color: #f9b60c;
+    padding-left: 5px;
+}
+
+.marker:hover .tooltip{
+    visibility: visible;
+}
+
+.marker a{
+    text-decoration: none;
+}

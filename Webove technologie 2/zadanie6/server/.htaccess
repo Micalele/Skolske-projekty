@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^api/names?([0-9a-zA-Z_-]*)$ api.php?search=name&$1 [QSA,L]
+RewriteRule ^api/dates?([0-9a-zA-Z_-]*)$ api.php?search=date&$1 [QSA,L]
+RewriteRule ^api/sviatkySK?([0-9a-zA-Z_-]*)$ api.php?search=sviatkySK&$1 [QSA,L]
+RewriteRule ^api/sviatkyCZ?([0-9a-zA-Z_-]*)$ api.php?search=sviatkyCZ&$1 [QSA,L]
+RewriteRule ^api/vlozitMeno?([0-9a-zA-Z_-]*)$ api.php?search=vlozitMeno&$1 [QSA,L]

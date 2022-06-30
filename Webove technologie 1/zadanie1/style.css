@@ -1,0 +1,129 @@
+body{
+    background-image: url("backgrounImage.jpg");
+    background-size: cover;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin: 0;
+}
+
+header div{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header{
+    background-image: linear-gradient(to right, #e41e37 , yellow);
+    color:#fff;
+}
+
+nav ul {
+    padding: 0;
+    list-style: node;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    color: white;
+    padding-right: 20px;
+}
+
+nav div{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+nav{
+    background-color: #555555;
+}
+
+footer {
+    color: white;
+    background-color: #555555;
+    text-align: center;
+    margin-bottom: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+}
+
+section div{
+    padding: 20px;
+    float: right;
+    margin-left: 20px;
+    width: 20%;
+    background-color: rgba(120,0,0,0.5);
+    font-size: 20px;
+}
+
+#block1{
+    padding: 20px;
+    width: 50%;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#block2{
+    padding: 20px;
+    margin: 5px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#bloky{
+    display: flex;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+
+th{
+    background-color: darkgray;
+}
+
+th, tr, td{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #555555;
+    width: 6%;
+    height: 50px;
+}
+
+.prednaska{
+    background-color: #FC523B;
+}
+
+.cvicenie{
+    background-color: #FFA711;
+}
+
+.telesna{
+    background-color: cadetblue;
+}
+
+#rozvrh{
+    margin: 10px;
+}
+
+aside{
+    color: #FFA711;
+}
+
+.bezBodky{
+    list-style: none;
+}

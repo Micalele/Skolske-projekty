@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset=UTF-8>
+    <title>Formular</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+<div id="form">
+    <form  action="mailto:feistu02@gmail.com?subject=Registration"
+           method="post" enctype="text/plain" accept-charset="UTF-8"
+           id="myForm" name="myForm">
+
+        <textarea id="meno" name="meno">Martin Michale</textarea>
+
+        <h1>Registration on private server</h1>
+
+        <fieldset id="personalInformation">
+                <h2>Personal information</h2>
+
+            <span class="star">*</span>
+            <input type="text" name="firstName" placeholder="First name" id="firstName" onchange="firstNameCheck()">
+            <span class="star">*</span>
+            <input type="text" name="lastName" placeholder="Last name" id="lastName" onchange="lastNameCheck()"><br>
+            <span class="formError" id="firstNameError">Missing first name!<br></span>
+            <span class="formError" id="lastNameError">Missing last name!<br></span>
+
+            <label id="mailLabel">
+                <span class="star">*</span>
+                <input type="text" name="email" placeholder="E-mail" id="mail" onchange="mailCheck()"><br>
+                <span class="formError" id="mailError">Wrong form or missing e-mail!<br></span>
+            </label>
+
+            Birth date:
+            <span class="star">*</span>
+            <input type="date" id="birthdate" name="birthdate">
+            <input type="number" placeholder="Age" id="age" onchange="ageCheck()" name="age">
+            <span class="formError" id="dateError">Wrong age!<br></span>
+        </fieldset><br>
+
+        <fieldset id="charDefinition">
+            <h2>Character definition</h2>
+            <label id="charNameLabel">
+                <span class="star">*</span>
+                <input type="text" name="charName" id="charName" onchange="charNameCheck()" placeholder="Character name"><br>
+                <span class="formError" id="charNameError">Missing character name!<br></span>
+            </label>
+
+            <select id="faction" name="faction" onchange="raceChange()">
+                <option value="horde">Horde</option>
+                <option value="aliance">Aliance</option>
+            </select>
+
+            <select id="race" name="race" onchange="specChange()">
+                <option value="orc">Orc</option>
+                <option value="tauren">Tauren</option>
+                <option value="troll">Troll</option>
+                <option value="undead">Undead</option>
+            </select>
+
+            <select id="spec" name="spec">
+                <option value="warrior">Warrior</option>
+                <option value="warlock">Warlock</option>
+                <option value="shaman">Shaman</option>
+                <option value="hunter">Hunter</option>
+                <option value="priest">Priest</option>
+            </select>
+            <br>
+            Favourite weapon:<br>
+            <div id="weapons">
+                <input type="radio" name="favouriteWeapon" value="sword" onchange="elseWeapon()">Sword<br>
+                <input type="radio" name="favouriteWeapon" value="staff" onchange="elseWeapon()">Staff<br>
+                <input type="radio" name="favouriteWeapon" value="dagger" onchange="elseWeapon()">Dagger<br>
+                <input type="radio" name="favouriteWeapon" value="else" onchange="elseWeapon()" id="elseCheck">Else<br>
+                <input type="text" name="favouriteWeapon" placeholder="Else" id="else">
+            </div>
+            Character story:<br>
+            <textarea name="story" rows="2" cols="40"></textarea>
+        </fieldset>
+
+            <input type="checkbox" id="newsCheckbox" name="newsCheckbox" onchange="newsRadioChech()">Receive news and special offers<br>
+            <div id="newsRadios">
+                <input id="newsOnly" type="radio" name="news" value="Only news">Only news<br>
+                <input id="newsOffers" type="radio" name="news" value="News and special offers">News and special offers
+            </div>
+
+        <br><input type="Button" value="Sign in" onclick="submitCheck()">
+    </form>
+</div>
+</body>
+</html>

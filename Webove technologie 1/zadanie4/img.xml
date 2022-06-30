@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gallery>
+	<image>
+		<src>images/img2.jpg</src>
+		<title>Dark souls</title>
+		<desc>Description1. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img3.jpg</src>
+		<title>Diablo</title>
+		<desc>Description2. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img4.jpg</src>
+		<title>Magic: The gathering</title>
+		<desc>Description3. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img5.jpg</src>
+		<title>Magic: The gathering</title>
+		<desc>Description4. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img6.jpg</src>
+		<title>Magic: The gathering</title>
+		<desc>Description5. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img7.jpg</src>
+		<title>No mans sky</title>
+		<desc>Description6. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img8.jpg</src>
+		<title>THE ELDER SCROLLS V: SKYRIM</title>
+		<desc>Description7. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img9.jpg</src>
+		<title>Rainbow 6: Siege</title>
+		<desc>Description8. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img10.jpg</src>
+		<title>World of Warcraft: Cataclism</title>
+		<desc>Description9. Description. Description. Description. Description. Description. Description. Description. Description. Description. </desc>
+	</image>
+	<image>
+		<src>images/img1.jpg</src>
+		<title>Battlefield V</title>
+		<desc>Description10. Description. Description. Description. Description. Description. Description. Description. Description. Description.</desc>
+	</image>
+	<image>
+		<src>images/mobile.jpg</src>
+		<title>asdasd</title>
+		<desc>Description. Description. Description. Description. Description. Description. Description. Description. Description. Description.</desc>
+	</image>
+</gallery>
